@@ -1,0 +1,10 @@
+/* Adaugă acest CSS global sau în fișierul de stil */
+.hide-scrollbar {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar { /* WebKit (Chrome, Safari) */
+    width: 0;
+    height: 0;
+  }
